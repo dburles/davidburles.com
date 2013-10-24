@@ -1,9 +1,13 @@
+<head>
+  <title>davidburles.com</title>
+</head>
+
 <template name="layout">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-4">
         <h3>davidburles.com</h3>
-        <ul class="nav nav-pills nav-stacked">
+        <ul class="nav nav-stacked">
           <li><hr></li>
           <li><a href="http://twitter.com/dburles">twitter.com/dburles</a></li>
           <li><a href="http://github.com/dburles">github.com/dburles</a></li>
@@ -11,7 +15,7 @@
           <li><a href="{{pathFor 'meetup3'}}">Meetup 3 / Meteor UI</a></li>
         </ul>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-8">
         {{yield}}
       </div>
     </div>
