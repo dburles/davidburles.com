@@ -4,12 +4,10 @@ Router.configure({
 
 Router.map(function() {
   this.route('home', {
-    path: '/',
-    template: 'home'
+    path: '/'
   });
 
   this.route('meetup3', {
-    path: '/meetup3',
-    template: 'meetup3'
+    path: '/meetup3'
   });
 });

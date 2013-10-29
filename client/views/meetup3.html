@@ -5,7 +5,7 @@
       <h3 class="panel-title">Try it</h3>
     </div>
     <div class="panel-body">
-      <p>Run <code>meteor --release template-engine-preview-1</code></p>
+      <p>Run <code>meteor --release template-engine-preview-2</code></p>
     </div>
   </div>
   <div class="panel panel-danger">
@@ -14,6 +14,24 @@
     </div>
     <div class="panel-body">
       <p><a href="https://github.com/meteor/meteor/wiki/New-Template-Engine-Preview">https://github.com/meteor/meteor/wiki/New-Template-Engine-Preview</a></p>
+    </div>
+  </div>
+  <div class="panel panel-success">
+    <div class="panel-heading">
+      <h3 class="panel-title">Major changes</h3>
+    </div>
+    <div class="panel-body">
+      <ul>
+        <li>Fine-grained updates that play nicely with jQuery</li>
+        <li>No more <code>\{{#constant}}</code>, <code>\{{#isolate}}</code>, or preserve</li>
+        <li>Rendered callback only fires once</li>
+        <li>New Template Parser</li>
+        <li>Template.foo is not a function and does not return a string</li>
+        <li>Meteor.render has been removed</li>
+        <li>New pattern for defining custom block helpers</li>
+        <li>Events use jQuery</li>
+        <li><code>\{{&gt; loginButtons}}</code> instead of <code>\{{loginButtons}}</code></li>
+      </ul>
     </div>
   </div>
   <hr>
@@ -33,6 +51,7 @@
     <div class="panel-body">
       <iframe width="480" height="360" src="//www.youtube.com/embed/ISNEhPG0wnA" frameborder="0" allowfullscreen></iframe>
       <p>Avital Oliver and David Greenspan are working on Meteor UI, our new live page rendering engine. Here's a quick demo showing how easy it'll be to integrate jQuery UI plugins with Meteor templates.</p>
+      <p><a href="https://github.com/meteor/meteor/tree/shark-1minute-video-1/examples/unfinished/shark">https://github.com/meteor/meteor/tree/shark-1minute-video-1/examples/unfinished/shark</a></p>
     </div>
   </div>
   <div class="panel panel-default">
@@ -44,7 +63,7 @@
     </div>
   </div>
   <hr>
-  <h4>Some other possibly useful stuff</h4>
+  <h4>Other stuff</h4>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">New rendered callback</h3>
